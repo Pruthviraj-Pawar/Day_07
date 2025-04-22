@@ -1,0 +1,6 @@
+my_tuple = (10, 20, 30, 40, 50)
+
+print("Elements at even indexes are:")
+
+for i in range(0, len(my_tuple), 2):
+    print(my_tuple[i])
